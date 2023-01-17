@@ -225,3 +225,72 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FF69B4;
+  max-height: 100vh;
+}
+body .navBar {
+  background-color: white;
+  padding: 20px;
+}
+body .navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body .navBar ul li {
+  list-style-type: none;
+  font-size: 20px;
+}
+body .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 200px;
+}
+body .hero .title {
+  margin: 20px;
+}
+body .hero .title h1 {
+  font-size: 80px;
+}
+body .hero .title p {
+  font-size: 20px;
+  text-align: end;
+}
+body .hero .design {
+  margin: 20px;
+}
+body footer {
+  text-align: center;
+}
